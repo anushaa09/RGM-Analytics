@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files — these are large and shouldn't be committed
+# (raw dunnhumby files + all generated pipeline outputs)
+data/*.csv
+data/*.xlsx
+
+# Keep the data folder itself tracked, but not its contents
+!data/.gitkeep
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Streamlit cache
+.streamlit/
+
+# Environment variables (if you ever add API keys/config)
+.env

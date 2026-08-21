@@ -1,0 +1,63 @@
+Total categories: 295
+Statistically confident (p<0.05, r2>0.10): 55
+
+CONFIDENT AND SENSIBLE (negative elasticity): 37
+                        category  elasticity  r_squared       p_value  n_weeks  test_rmse             interpretation
+0                          BACON   -5.281119   0.342363  1.059468e-10      102   0.439031  elastic (price-sensitive)
+1         FRZN NOVELTIES/WTR ICE   -4.498859   0.425542  1.105963e-13      102   0.528969  elastic (price-sensitive)
+2                          BREAD   -3.444383   0.146370  7.237053e-05      102   0.734111  elastic (price-sensitive)
+3           CRACKERS/MISC BKD FD   -3.192198   0.180733  8.434735e-06      102   0.702965  elastic (price-sensitive)
+4                   BAKING MIXES   -3.013318   0.156646  3.831513e-05      102   0.689980  elastic (price-sensitive)
+5                 DINNER SAUSAGE   -2.937069   0.120473  3.515183e-04      102   0.769529  elastic (price-sensitive)
+6                         CHEESE   -2.881073   0.157467  3.640897e-05      102   0.669746  elastic (price-sensitive)
+7                         BUTTER   -2.754269   0.253493  6.899564e-08      102   0.699133  elastic (price-sensitive)
+8            SOAP - LIQUID & BAR   -2.483357   0.243547  1.362402e-07      102   0.475820  elastic (price-sensitive)
+9      BEANS - CANNED GLASS & MW   -2.402149   0.258506  4.881183e-08      102   0.495233  elastic (price-sensitive)
+10              WAREHOUSE SNACKS   -2.335332   0.260919  4.129190e-08      102   0.780381  elastic (price-sensitive)
+11                     LUNCHMEAT   -2.309838   0.121817  3.240632e-04      102   0.660367  elastic (price-sensitive)
+12        ICE CREAM/MILK/SHERBTS   -2.306118   0.276664  1.368877e-08      102   0.771577  elastic (price-sensitive)
+13      REFRGRATD DOUGH PRODUCTS   -2.247201   0.104183  9.372772e-04      102   0.752796  elastic (price-sensitive)
+14                   COCOA MIXES   -2.236599   0.208157  1.627042e-06      101   0.600160  elastic (price-sensitive)
+15                       BERRIES   -2.073819   0.382638  4.264205e-12      102   0.751159  elastic (price-sensitive)
+16                    RICE CAKES   -2.057443   0.263283  4.800916e-08      100   0.691998  elastic (price-sensitive)
+17             CANDY - CHECKLANE   -2.003700   0.187238  5.571313e-06      102   0.722606  elastic (price-sensitive)
+18                DINNER MXS:DRY   -1.997110   0.118080  4.062219e-04      102   0.593694  elastic (price-sensitive)
+19              MILK BY-PRODUCTS   -1.944130   0.100400  1.175652e-03      102   0.557493  elastic (price-sensitive)
+21                       CHICKEN   -1.900678   0.149692  5.895479e-05      102   0.732914  elastic (price-sensitive)
+23                       POPCORN   -1.869707   0.132686  1.674342e-04      102   0.759348  elastic (price-sensitive)
+26        SALD DRSNG/SNDWCH SPRD   -1.819044   0.109423  6.843344e-04      102   0.591568  elastic (price-sensitive)
+27                     NEWSPAPER   -1.793971   0.178255  1.093943e-05      101   0.629708  elastic (price-sensitive)
+29            FIRST AID PRODUCTS   -1.708210   0.228493  3.758850e-07      102   0.728291  elastic (price-sensitive)
+31           FLUID MILK PRODUCTS   -1.669599   0.238171  1.961515e-07      102   0.689878  elastic (price-sensitive)
+35                       CARROTS   -1.580701   0.215152  9.107508e-07      102   0.605337  elastic (price-sensitive)
+38                      BABYFOOD   -1.454649   0.415988  2.435846e-10       77   0.734066  elastic (price-sensitive)
+39                         ROLLS   -1.411970   0.133188  1.623866e-04      102   0.464300  elastic (price-sensitive)
+49  STATIONERY & SCHOOL SUPPLIES   -1.270855   0.119805  3.660058e-04      102   0.805586  elastic (price-sensitive)
+51             VALUE ADDED FRUIT   -1.228732   0.202371  2.100910e-06      102   0.530234  elastic (price-sensitive)
+54            PLASTIC HOUSEWARES   -1.188497   0.143431  8.672080e-05      102   0.734398  elastic (price-sensitive)
+57                        GRAPES   -1.160477   0.231789  3.014434e-07      102   0.788588  elastic (price-sensitive)
+58                         CAKES   -1.136391   0.124678  2.724817e-04      102   0.590893  elastic (price-sensitive)
+68                FROZEN CHICKEN   -0.981272   0.102564  3.778702e-03       80   0.864539                   moderate
+85               RESTRICTED DIET   -0.713095   0.204132  1.219664e-02       30   0.605435                   moderate
+92  PREPAID WIRELESS&ACCESSORIES   -0.608333   0.103209  1.117747e-03      100   0.890047                   moderate
+
+CONFIDENT BUT UNEXPECTED (positive elasticity): 18
+                           category  elasticity  r_squared       p_value  n_weeks  test_rmse           interpretation
+227             SPORTS MEMORABLILIA    0.306973   0.150704  1.169870e-03       67   0.751881  inelastic (staple-like)
+228              FLORAL- HARD GOODS    0.318505   0.117418  1.239656e-03       86   0.742713  inelastic (staple-like)
+233          SPRING/SUMMER SEASONAL    0.344754   0.108749  7.125953e-04      102   0.855798  inelastic (staple-like)
+236           IRONING AND CHEMICALS    0.367903   0.107487  1.044682e-03       97   0.761454  inelastic (staple-like)
+251                          TURKEY    0.597720   0.102505  1.036436e-03      102   1.156032  inelastic (staple-like)
+262                    SMOKED MEATS    0.773567   0.140643  1.029141e-04      102   0.753704  inelastic (staple-like)
+264                       HALLOWEEN    0.852256   0.149826  9.439925e-03       44   1.717199  inelastic (staple-like)
+265                       FIREWORKS    0.886013   0.214910  4.559336e-02       19   1.091467  inelastic (staple-like)
+269                       MISC WINE    0.918641   0.105288  8.771582e-04      102   0.664495  inelastic (staple-like)
+275             CHRISTMAS  SEASONAL    1.067297   0.264064  1.754166e-06       77   1.616800  inelastic (staple-like)
+287                    REFRIGERATED    1.857524   0.136802  1.302203e-04      102   0.745344  inelastic (staple-like)
+288                            FUEL    1.986519   0.111336  7.379285e-04       99   0.822567  inelastic (staple-like)
+289                        POTATOES    2.283910   0.260606  4.219816e-08      102   0.523580  inelastic (staple-like)
+290  GREETING CARDS/WRAP/PARTY SPLY    2.583334   0.204805  1.793273e-06      102   0.424481  inelastic (staple-like)
+291                          SNACKS    2.771770   0.169755  2.052466e-05      100   0.578118  inelastic (staple-like)
+292                            SOUP    2.793760   0.137201  1.270795e-04      102   0.666386  inelastic (staple-like)
+293                        FRZN ICE    3.339989   0.293458  4.113890e-09      102   0.726210  inelastic (staple-like)
+294               DRY NOODLES/PASTA    4.252633   0.213402  1.021899e-06      102   0.471458  inelastic (staple-like)
