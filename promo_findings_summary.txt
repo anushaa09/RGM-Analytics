@@ -1,0 +1,82 @@
+Total categories with promo uplift computed: 249
+Reliable (baseline >= 5 units, uplift <= 300%): 219
+Flagged (tiny baseline or extreme uplift): 30
+
+=== SUMMARY STATS (reliable subset only) ===
+count    219.000000
+mean     109.524195
+std       82.874697
+min        4.766949
+25%       39.480665
+50%       80.699034
+75%      175.970094
+max      298.062726
+
+=== TOP 15 RELIABLE UPLIFT CATEGORIES ===
+                     category  baseline_avg_units  promo_avg_units  uplift_pct  n_promo_weeks  n_baseline_weeks  flag_tiny_baseline  flag_extreme_uplift  is_reliable
+9      ICE CREAM/MILK/SHERBTS           80.111111       318.892473  298.062726             93                 9               False                False         True
+10               BAKING MIXES           64.888889       252.462366  289.068714             93                 9               False                False         True
+11        FLUID MILK PRODUCTS          314.111111      1219.709677  288.305168             93                 9               False                False         True
+12                       EGGS           94.222222       360.440860  282.543366             93                 9               False                False         True
+13               BATH TISSUES           47.666667       177.709677  272.817505             93                 9               False                False         True
+14               PAPER TOWELS           42.777778       159.032258  271.763720             93                 9               False                False         True
+15                  BATTERIES            8.400000        31.086957  270.082816             92                10               False                False         True
+16                   SEASONAL           12.066667        44.400000  267.955801              5                15               False                False         True
+17                MEAT - MISC           32.555556       118.462366  263.877573             93                 9               False                False         True
+18      ORAL HYGIENE PRODUCTS           34.555556       125.559140  263.354424             93                 9               False                False         True
+19                  FIREWORKS            5.200000        18.857143  262.637363             14                 5               False                False         True
+20                     COFFEE           44.444444       159.204301  258.209677             93                 9               False                False         True
+21                     CHEESE          283.555556      1008.731183  255.743756             93                 9               False                False         True
+23                 HEAT/SERVE           22.555556        79.462366  252.296202             93                 9               False                False         True
+24  VEGETABLES - SHELF STABLE          231.222222       810.978495  250.735533             93                 9               False                False         True
+
+=== BOTTOM 15 RELIABLE UPLIFT CATEGORIES (promotions that hurt or did nothing) ===
+                 category  baseline_avg_units  promo_avg_units  uplift_pct  n_promo_weeks  n_baseline_weeks  flag_tiny_baseline  flag_extreme_uplift  is_reliable
+231              MAGAZINE        9.156338e+01     1.064839e+02   16.295260             31                71               False                False         True
+233     COUPON/MISC ITEMS        2.502217e+06     2.900589e+06   15.920750              5                97               False                False         True
+234        COFFEE FILTERS        1.649254e+01     1.908571e+01   15.723335             35                67               False                False         True
+235                FROZEN        3.312644e+01     3.821429e+01   15.358878             14                87               False                False         True
+236   COUPONS/STORE & MFG        5.760563e+00     6.636364e+00   15.203379             22                71               False                False         True
+237       SYRUPS/TOPPINGS        1.303774e+01     1.500000e+01   15.050651             48                53               False                False         True
+238      VEGETABLES SALAD        1.156140e+02     1.306000e+02   12.962064             45                57               False                False         True
+239           MISC. DAIRY        9.471053e+01     1.065000e+02   12.447902             64                38               False                False         True
+240            SANDWICHES        1.316129e+01     1.471429e+01   11.799720              7                93               False                False         True
+241                 HERBS        3.638889e+01     4.053333e+01   11.389313             30                72               False                False         True
+242             SALAD BAR        1.036737e+02     1.148571e+02   10.787172              7                95               False                False         True
+243  INFANT CARE PRODUCTS        1.467442e+01     1.618750e+01   10.311014             16                86               False                False         True
+244       BROOMS AND MOPS        3.728261e+01     4.076786e+01    9.348188             56                46               False                False         True
+245                  BATH        1.373913e+01     1.467742e+01    6.829318             31                69               False                False         True
+246              BABYFOOD        1.026087e+01     1.075000e+01    4.766949              8                69               False                False         True
+
+=== FLAGGED CATEGORIES (30) -- likely artifacts, exclude from findings ===
+                         category  baseline_avg_units  promo_avg_units  uplift_pct  n_promo_weeks  n_baseline_weeks  flag_tiny_baseline  flag_extreme_uplift  is_reliable
+0                          EASTER            8.647059        64.750000  648.809524             16                17               False                 True        False
+1                       VALENTINE            6.666667        36.687500  450.312500             16                21               False                 True        False
+2             CHRISTMAS  SEASONAL           14.304348        76.944444  437.909490             54                23               False                 True        False
+3                       HALLOWEEN           10.517241        53.666667  410.273224             15                29               False                 True        False
+4                          MELONS           21.937500       104.684211  377.192982             38                64               False                 True        False
+5                     STONE FRUIT           39.103896       165.500000  323.231485             22                77               False                 True        False
+6                            CORN           84.929577       356.545455  319.813056             22                71               False                 True        False
+7          FRZN VEGETABLE/VEG DSH           81.777778       334.376344  308.884116             93                 9               False                 True        False
+8                            SOUP          220.222222       900.075269  308.712282             93                 9               False                 True        False
+22                         SUNTAN            2.897436        10.242424  253.499598             33                39                True                False        False
+44                          ROSES            4.207317        13.529412  221.568627             17                82                True                False        False
+55               EXOTIC GAME/FOWL            2.078431         6.333333  204.716981             24                51                True                False        False
+69                   CONTINUITIES            2.481481         6.750000  172.014925             20                27                True                False        False
+82       FALL AND WINTER SEASONAL            4.851852        12.181818  151.075642             11                54                True                False        False
+85                    PARTY TRAYS            3.855072         9.260870  140.225564             23                69                True                False        False
+87        FLORAL-FLOWERING PLANTS            3.945455         9.341463  136.765202             41                55                True                False        False
+102                FROZEN CHICKEN            4.729730        10.023256  111.920266             43                37                True                False        False
+105           SPORTS MEMORABLILIA            3.134615         6.533333  108.425358             15                52                True                False        False
+111        GLASSWARE & DINNERWARE            4.627119         9.416667  103.510379             12                59                True                False        False
+120                      BEVERAGE            4.894737         9.578947   95.698925             19                76                True                False        False
+132         FLORAL-FOLIAGE PLANTS            3.723684         6.625000   77.915194              8                76                True                False        False
+136                        BAKING            4.862500         8.454545   73.872400             11                80                True                False        False
+160              HOME FURNISHINGS            2.162162         3.384615   56.538462             13                37                True                False        False
+182                    CONDIMENTS            4.156250         5.939394   42.902711             33                64                True                False        False
+195          COSMETIC ACCESSORIES            3.119403         4.200000   34.641148             10                67                True                False        False
+198  DELI SPECIALTIES (RETAIL PK)            4.737500         6.352941   34.099022             17                80                True                False        False
+209       PACKAGED NATURAL SNACKS            4.864865         6.095238   25.291005             21                74                True                False        False
+232  PORTABLE ELECTRIC APPLIANCES            1.912281         2.222222   16.207951              9                57                True                False        False
+247       DRY TEA/COFFEE/COCO MIX            2.903226         2.900000   -0.111111             10                62                True                False        False
+248            BAKERY PARTY TRAYS            2.566038         2.555556   -0.408497              9                53                True                False        False
